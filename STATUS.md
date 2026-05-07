@@ -88,7 +88,7 @@ YOUR_ADMIN_BOT_TOKEN
 
 **Admin ID:**
 ```
-1384059886
+YOUR_ADMIN_ID
 ```
 
 ---

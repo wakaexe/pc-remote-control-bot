@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ```env
 TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
-ADMIN_ID=1384059886
+ADMIN_ID=YOUR_ADMIN_ID
 GROQ_API_KEY=your_groq_api_key_here
 WS_SERVER_URL=ws://localhost:8765
 ```

@@ -86,7 +86,7 @@ python pc_client.py
 ```env
 # Основной бот
 TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
-ADMIN_ID=1384059886
+ADMIN_ID=YOUR_ADMIN_ID
 
 # AI
 GROQ_API_KEY=your_groq_api_key_here
@@ -137,7 +137,7 @@ python -c "from database import init_db; init_db()"
 
 **Основной бот:** YOUR_TELEGRAM_BOT_TOKEN
 **Админ бот:** YOUR_ADMIN_BOT_TOKEN
-**Admin ID:** 1384059886
+**Admin ID:** YOUR_ADMIN_ID
 
 ## 🎉 Готово!
 

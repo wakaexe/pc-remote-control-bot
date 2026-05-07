@@ -36,7 +36,7 @@ Groq - это **бесплатный** AI API с очень быстрыми м�
 ```env
 # Telegram Bot Configuration
 TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
-ADMIN_ID=1384059886
+ADMIN_ID=YOUR_ADMIN_ID
 
 # AI Configuration
 AI_PROVIDER=groq
