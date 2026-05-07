@@ -2,6 +2,14 @@
 
 Мощная система удаленного управления компьютерами через Telegram с AI-ассистентом.
 
+## 🚀 Быстрый деплой на Render.com
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/wakaexe/pc-remote-control-bot)
+
+**Или используйте прямую ссылку:** https://render.com/deploy?repo=https://github.com/wakaexe/pc-remote-control-bot
+
+---
+
 ## ✨ Возможности
 
 ### 🖥️ Управление системой
