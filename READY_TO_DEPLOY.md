@@ -85,12 +85,12 @@ Render создаст автоматически:
 
 ### Основной бот
 ```
-Token: 8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
+Token: YOUR_TELEGRAM_BOT_TOKEN
 ```
 
 ### Админ бот
 ```
-Token: 8740193873:AAEYa2Q4LT2bU-9sJvxPWTmhTfAnzPa5umQ
+Token: YOUR_ADMIN_BOT_TOKEN
 ```
 
 ### Admin ID

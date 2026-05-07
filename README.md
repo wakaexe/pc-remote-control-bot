@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ### 2. Настройка .env
 
 ```env
-TELEGRAM_BOT_TOKEN=8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
+TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 ADMIN_ID=1384059886
 GROQ_API_KEY=your_groq_api_key_here
 WS_SERVER_URL=ws://localhost:8765
@@ -143,7 +143,7 @@ chmod +x install_client.sh
 
 ## 🔐 Админ-панель
 
-**Токен админ-бота:** 8740193873:AAEYa2Q4LT2bU-9sJvxPWTmhTfAnzPa5umQ
+**Токен админ-бота:** YOUR_ADMIN_BOT_TOKEN
 
 ### Команды администратора
 - `/stats` - Статистика системы

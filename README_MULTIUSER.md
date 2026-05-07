@@ -85,7 +85,7 @@ python pc_client.py
 
 ```env
 # Основной бот
-TELEGRAM_BOT_TOKEN=8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
+TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 ADMIN_ID=1384059886
 
 # AI
@@ -135,8 +135,8 @@ python -c "from database import init_db; init_db()"
 
 ## 📝 Токены
 
-**Основной бот:** 8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
-**Админ бот:** 8740193873:AAEYa2Q4LT2bU-9sJvxPWTmhTfAnzPa5umQ
+**Основной бот:** YOUR_TELEGRAM_BOT_TOKEN
+**Админ бот:** YOUR_ADMIN_BOT_TOKEN
 **Admin ID:** 1384059886
 
 ## 🎉 Готово!

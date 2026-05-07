@@ -78,12 +78,12 @@ chmod +x install_client.sh
 
 **Основной бот:**
 ```
-8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
+YOUR_TELEGRAM_BOT_TOKEN
 ```
 
 **Админ бот:**
 ```
-8740193873:AAEYa2Q4LT2bU-9sJvxPWTmhTfAnzPa5umQ
+YOUR_ADMIN_BOT_TOKEN
 ```
 
 **Admin ID:**

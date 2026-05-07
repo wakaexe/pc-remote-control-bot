@@ -31,7 +31,7 @@ git push -u origin main
 После создания сервисов, проверьте переменные окружения:
 
 **Main Bot (pc-remote-bot):**
-- `TELEGRAM_BOT_TOKEN`: 8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
+- `TELEGRAM_BOT_TOKEN`: YOUR_TELEGRAM_BOT_TOKEN
 - `ADMIN_ID`: 1384059886
 - `GROQ_API_KEY`: your_groq_api_key_here
 - `WS_SERVER_URL`: wss://pc-remote-websocket.onrender.com (замените на ваш URL)

@@ -9,7 +9,7 @@ services:
     startCommand: python main.py
     envVars:
       - key: TELEGRAM_BOT_TOKEN
-        value: 8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
+        value: YOUR_TELEGRAM_BOT_TOKEN
       - key: ADMIN_ID
         value: 1384059886
       - key: GROQ_API_KEY
