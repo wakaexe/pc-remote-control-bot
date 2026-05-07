@@ -1,0 +1,78 @@
+services:
+  # Main Bot Service
+  - type: web
+    name: pc-remote-bot
+    env: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8668239227:AAEeCYk5v_s_PSkE7AXYv-koSEyeG5Uv8JM
+      - key: ADMIN_ID
+        value: 1384059886
+      - key: GROQ_API_KEY
+        sync: false
+      - key: AI_PROVIDER
+        value: groq
+      - key: BOT_MODE
+        value: polling
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pc-remote-db
+          property: connectionString
+      - key: WS_SERVER_URL
+        sync: false
+      - key: LOG_LEVEL
+        value: INFO
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
+  # WebSocket Server
+  - type: web
+    name: pc-remote-websocket
+    env: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python websocket_server.py
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pc-remote-db
+          property: connectionString
+      - key: WS_SERVER_HOST
+        value: 0.0.0.0
+      - key: WS_SERVER_PORT
+        value: 8765
+      - key: LOG_LEVEL
+        value: INFO
+
+  # Admin Bot Service
+  - type: web
+    name: pc-remote-admin
+    env: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python admin_bot.py
+    envVars:
+      - key: ADMIN_ID
+        value: 1384059886
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pc-remote-db
+          property: connectionString
+      - key: LOG_LEVEL
+        value: INFO
+
+databases:
+  # PostgreSQL Database (Free tier)
+  - name: pc-remote-db
+    databaseName: pc_remote_bot
+    user: pc_remote_user
+    plan: free
+    region: frankfurt
